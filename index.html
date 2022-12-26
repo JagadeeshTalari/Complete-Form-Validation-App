@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <div>
+    <div class="container">
 
         <form action="" method="post">
             
@@ -22,19 +22,25 @@
 
                 <li>
                     <label for="emailId">Email :</label>
-                    <input type="email" name="" id="emailId">
+                    <input type="text" name="" id="emailId">
+                    <span id="error"></span>
                 </li>
 
                 <li>
                     <label for="password">Password :</label>
                     <input type="password" name="" id="password">
+                    <span id="pwderror"></span>
                 </li>
 
                 <li>
                     <label for="confirmPassword">Confirm Password :</label>
                     <input type="password" name="" id="confirmPassword">
+                    <span id="cnfrmerror"></span>
                 </li>
 
+                <li>
+                    <button type="submit" class="submit">Login</button>
+                </li>
             </ul>
             
             
